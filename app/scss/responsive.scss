@@ -1,0 +1,73 @@
+@media all and (max-width: 992px) {
+
+    /* hero */
+    #hero {
+
+        #hero-center-title {
+            width: 400px;
+
+            h1 {
+                font-size: 40px;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 20px;
+                color: #0080FF;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            h3 {
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+    }
+
+    /* triangles */
+    .triangle-container {
+
+        #triangle-1 {
+            border-bottom: 200px solid transparent;
+            border-top: 200px solid transparent;
+            border-left: 200px solid #080808;
+        }
+
+        #triangle-2 {
+            border-bottom: 200px solid transparent;
+            border-top: 200px solid transparent;
+            border-right: 200px solid #080808;
+        }
+    }
+
+
+
+    /* Sections */
+    section {
+        
+        h3 {
+            margin: 50px auto 30px auto;
+        }
+
+        #skills {
+            width: 350px;
+            height: 200px;
+            margin: 0 auto 100px auto;
+
+        }
+    }
+
+    #contact-section {
+
+        #contact-container {
+
+            a {
+                margin: 20px;
+            }
+
+
+        }
+    }
+
+}

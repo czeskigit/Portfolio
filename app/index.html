@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Michał Czech</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css-bootstrap/bootstrap.min.css">
+</head>
+
+<body class="body">
+
+    <!--    Navigation    -->
+    <nav id="main-nav" class="navbar navbar-transp navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#hero">Portfolio - <span>Michał Czech</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-section">O mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills-section">Umiejętności</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-section">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--    Hero    -->
+    <header id="hero">
+        <div id="hero-center-title">
+            <h1 id="main-title">P o r t f o l i o</h1>
+            <h2 id="subtitle">Michał Czech</h2>
+            <h3>Front-End Developer</h3>
+        </div>
+        <img src="resources/earth.jpg" alt="earth" id="earth">
+        <img src="resources/moon.jpg" alt="moon" id="moon">
+        <div id="hero-mask"></div>
+    </header>
+
+    <!--    About Section    -->
+    <section id="about-section">
+        <h3>O<span> mnie</span></h3>
+        <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12 col-lg-6">
+                   <img id="photo" src="resources/Mike.JPG" alt="developer photo">
+               </div>
+                <div class="col-md-12 col-lg-6">
+                    <p>Nazywam się Michał Czech. Jestem Front-end Developerem i inżynierem. Programowaniem interesuję się od ponad roku. Ukończyłem kurs Front-End w krakowskiej szkole programowania Akademia108. Obecnie mieszkam w Krakowie i pracuję jako Technical Writer w korporacji działającej na rynku AGD.</p>
+                </div>
+            </div>
+        </div>
+
+        <h4>Zainteresowania</h4>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div id="hobby-1" class="hobby">
+                        <h5>Druk 3D</h5>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div id="hobby-2" class="hobby">
+                        <h5>Astronomia</h5>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md- 12 col-lg-4">
+                    <div id="hobby-3" class="hobby">
+                        <h5>Programowanie</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="triangle-container">
+        <div id="triangle-1"></div>
+    </div>
+
+    <!--    Skills Section    -->
+    <section id="skills-section">
+
+        <h3>Moje<span> umiejętności</span></h3>
+
+        <div id="skills">
+            <div id="skill-1" class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML5</p>
+            </div>
+            <div id="skill-2" class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS3</p>
+            </div>
+            <div id="skill-3" class="skill">
+                <i class="fab fa-js"></i>
+                <p>JS, jQuery &amp; AJAX</p>
+            </div>
+            <div id="skill-4" class="skill">
+                <i class="fas fa-mobile-alt"></i>
+                <p>RWD</p>
+            </div>
+            <div id="skill-5" class="skill">
+                <div id="bootstrap-icon">B</div>
+                <p>Bootstrap</p>
+            </div>
+            <div id="skill-6" class="skill">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+            </div>
+            <div id="skill-7" class="skill">
+                <i class="fab fa-sass"></i>
+                <p>Sass</p>
+            </div>
+            <div id="skill-8" class="skill">
+                <i class="fab fa-wordpress"></i>
+                <p>WordPress</p>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="triangle-container">
+        <div id="triangle-2"></div>
+    </div>
+
+    <!--    Contact section    -->
+    <section id="contact-section">
+        <h3>Kontakt</h3>
+        <p>Możecie mnie znaleźć na Facebook'u lub LinkedIn.</p>
+        <div id="contact-container">
+            <a href="https://www.linkedin.com/in/micha%C5%82-czech-495627127/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/czesiek.mc"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </section>
+
+    <!--   Footer    -->
+
+    <footer>
+        <div id="logo">
+            <p>MC</p>
+        </div>
+        <p>&copy;Copyright Michał Czech</p>
+    </footer>
+    <!--    Scripts    -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/popper.js"></script>
+    <script src="js-bootstrap/bootstrap.min.js"></script>
+    <script src="js/mech.js"></script>
+
+</body>
+
+</html>
