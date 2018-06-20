@@ -225,6 +225,10 @@
     z-index: 3;
 }
 
+#heroMobile {
+    display: none;
+}
+
 /*  Sections  */
 section {
     padding: 50px;
@@ -234,7 +238,7 @@ section {
 }
 
 section #photo {
-    width: 100%;
+    width: 80%;
     border: 10px solid #080808;
 }
 

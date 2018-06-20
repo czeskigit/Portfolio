@@ -220,6 +220,10 @@
     }
 }
 
+#heroMobile {
+    display: none;
+}
+
 /*  Sections  */
 
 section {
@@ -229,7 +233,7 @@ section {
     position: relative;
     
     #photo {
-        width: 100%;
+        width: 80%;
         border: 10px solid #080808;
     }
 
