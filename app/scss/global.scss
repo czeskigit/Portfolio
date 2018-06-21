@@ -66,6 +66,64 @@
         transform: scale(0.5);
         opacity: 0.2;
     }
+    
+}
+
+@keyframes skill-orbit-mobile {
+    0% {
+        top: 0%;
+        left: 50%;
+        transform: scale(0.3);
+        opacity: 0.2;
+    }
+    12.5% {
+        top: 15%;
+        left: 85%;
+        transform: scale(0.3);
+        opacity: 0.2;
+    }
+    25% {
+        top: 50%;
+        left: 100%;
+        transform: scale(0.3);
+        opacity: 0.2;
+    }
+    37.5% {
+        top: 85%;
+        left: 85%;
+        transform: scale(0.3);
+        opacity: 0.2;
+    }
+    50% {
+        top: 60%;
+        left: 50%;
+        transform: scale(1.5);
+        opacity: 1;
+    }
+    62.5% {
+        top: 85%;
+        left: 15%;
+        transform: scale(0.3);
+        opacity: 0.2;
+    }
+    75% {
+        top: 50%;
+        left: 0%;
+        transform: scale(0.3);
+        opacity: 0.2;
+    }
+    87.5% {
+        top: 15%;
+        left: 15%;
+        transform: scale(0.3);
+        opacity: 0.2;
+    }
+    100% {
+        top: 0%;
+        left: 50%;
+        transform: scale(0.3);
+        opacity: 0.2;
+    }
 }
 
 @keyframes golden {
@@ -261,7 +319,8 @@ section {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #080808;
+        border: 1px solid #0080FF;
+        background-color: #000;
         margin: 50px auto;
         transition: all 0.4s;
 
@@ -292,7 +351,7 @@ section {
         .skill {
             height: 120px;
             width: 150px;
-            position: absolute; //            transform: translate(-50%, -50%);
+            position: absolute;
             top: 0%;
             left: 50%;
             animation-name: skill-orbit;

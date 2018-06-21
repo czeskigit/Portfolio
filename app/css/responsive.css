@@ -33,6 +33,10 @@
         border-right: 200px solid #080808;
     }
   /* Sections */
+    section #photo {
+        margin-bottom: 50px;
+    }
+
     section h3 {
         margin: 50px auto 30px auto;
     }
@@ -119,7 +123,39 @@
         border-right: 150px solid #080808;
     }
   /* Sections */
-    section #skills {
+    #skills-section #skills {
         width: 250px;
+    }
+}
+
+@media all and (max-width: 460px) {
+    #main-nav .navbar-brand {
+        font-size: 15px;
+    }
+
+    #heroMobile #heroMobile-title h1 {
+        font-size: 30px;
+    }
+
+    #heroMobile #heroMobile-title h2 {
+        font-size: 15px;
+    }
+
+    #heroMobile #heroMobile-title h3 {
+        font-size: 15px;
+    }
+
+    section #photo {
+        width: 100%;
+        border: 1px solid #0080FF;
+        padding: 5px;
+    }
+
+    #skills-section #skills {
+        width: 180px;
+    }
+
+    #skills-section #skills .skill {
+        animation-name: skill-orbit-mobile;
     }
 }
