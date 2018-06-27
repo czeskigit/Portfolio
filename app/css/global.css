@@ -37,6 +37,7 @@
         left: 85%;
         transform: scale(1.1);
         opacity: 0.8;
+        text-shadow: 0px 0px 0px #000000;
     }
 
     50% {
@@ -44,6 +45,7 @@
         left: 50%;
         transform: scale(1.5);
         opacity: 1;
+        text-shadow: 0px 0px 25px #0080FF;
     }
 
     62.5% {
@@ -51,6 +53,7 @@
         left: 15%;
         transform: scale(1.1);
         opacity: 0.8;
+        text-shadow: 0px 0px 0px #000000;
     }
 
     75% {
@@ -100,6 +103,7 @@
     37.5% {
         top: 85%;
         left: 85%;
+        text-shadow: 0px 0px 0px #000000;
         transform: scale(0.3);
         opacity: 0.2;
     }
@@ -107,6 +111,7 @@
     50% {
         top: 60%;
         left: 50%;
+        text-shadow: 0px 0px 25px #0080FF;
         transform: scale(1.5);
         opacity: 1;
     }
@@ -114,6 +119,7 @@
     62.5% {
         top: 85%;
         left: 15%;
+        text-shadow: 0px 0px 0px #000000;
         transform: scale(0.3);
         opacity: 0.2;
     }
@@ -137,20 +143,6 @@
         left: 50%;
         transform: scale(0.3);
         opacity: 0.2;
-    }
-}
-
-@keyframes golden {
-    37.5% {
-        text-shadow: 0px 0px 25px #000000;
-    }
-
-    50% {
-        text-shadow: 0px 0px 25px #0080FF;
-    }
-
-    62.5% {
-        text-shadow: 0px 0px 25px #000000;
     }
 }
 
@@ -233,6 +225,7 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 #hero #earth {
@@ -376,18 +369,12 @@ section #skills .skill .fab,
       section #skills .skill .fas {
     font-size: 50px;
     color: #fff;
-    animation-name: golden;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
 }
 
 section #skills .skill p {
     margin: 10px 0;
     font-size: 20px;
     color: #fff;
-    animation-name: golden;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
 }
 
 section #skills .skill #bootstrap-icon {
@@ -400,17 +387,9 @@ section #skills .skill #bootstrap-icon {
     height: 50px;
     width: 50px;
     margin: 0 auto;
-    animation-name: golden;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
 }
 
 section #skills #skill-2 {
-    animation-delay: 1.25s;
-}
-
-section #skills #skill-2 p,
-      section #skills #skill-2 .fab {
     animation-delay: 1.25s;
 }
 
@@ -418,17 +397,7 @@ section #skills #skill-3 {
     animation-delay: 2.5s;
 }
 
-section #skills #skill-3 p,
-      section #skills #skill-3 .fab {
-    animation-delay: 2.5s;
-}
-
 section #skills #skill-4 {
-    animation-delay: 3.75s;
-}
-
-section #skills #skill-4 p,
-      section #skills #skill-4 .fas {
     animation-delay: 3.75s;
 }
 
@@ -436,17 +405,7 @@ section #skills #skill-5 {
     animation-delay: 5s;
 }
 
-section #skills #skill-5 p,
-      section #skills #skill-5 #bootstrap-icon {
-    animation-delay: 5s;
-}
-
 section #skills #skill-6 {
-    animation-delay: 6.25s;
-}
-
-section #skills #skill-6 p,
-      section #skills #skill-6 .fab {
     animation-delay: 6.25s;
 }
 
@@ -454,17 +413,7 @@ section #skills #skill-7 {
     animation-delay: 7.5s;
 }
 
-section #skills #skill-7 p,
-      section #skills #skill-7 .fab {
-    animation-delay: 7.5s;
-}
-
 section #skills #skill-8 {
-    animation-delay: 8.75s;
-}
-
-section #skills #skill-8 p,
-      section #skills #skill-8 .fab {
     animation-delay: 8.75s;
 }
 

@@ -35,18 +35,21 @@
         left: 85%;
         transform: scale(1.1);
         opacity: 0.8;
+        text-shadow: 0px 0px 0px #000000;
     }
     50% {
         top: 100%;
         left: 50%;
         transform: scale(1.5);
         opacity: 1;
+        text-shadow: 0px 0px 25px #0080FF;
     }
     62.5% {
         top: 85%;
         left: 15%;
         transform: scale(1.1);
         opacity: 0.8;
+        text-shadow: 0px 0px 0px #000000;
     }
     75% {
         top: 50%;
@@ -91,18 +94,21 @@
     37.5% {
         top: 85%;
         left: 85%;
+        text-shadow: 0px 0px 0px #000000;
         transform: scale(0.3);
         opacity: 0.2;
     }
     50% {
         top: 60%;
         left: 50%;
+        text-shadow: 0px 0px 25px #0080FF;
         transform: scale(1.5);
         opacity: 1;
     }
     62.5% {
         top: 85%;
         left: 15%;
+        text-shadow: 0px 0px 0px #000000;
         transform: scale(0.3);
         opacity: 0.2;
     }
@@ -123,20 +129,6 @@
         left: 50%;
         transform: scale(0.3);
         opacity: 0.2;
-    }
-}
-
-@keyframes golden {
-    37.5% {
-        text-shadow: 0px 0px 25px #000000;
-    }
-
-    50% {
-        text-shadow: 0px 0px 25px #0080FF;
-    }
-
-    62.5% {
-        text-shadow: 0px 0px 25px #000000;
     }
 }
 
@@ -221,6 +213,7 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
+    background-repeat: no-repeat;
 
     #earth {
         position: absolute;
@@ -363,18 +356,12 @@ section {
             .fas {
                 font-size: 50px;
                 color: #fff;
-                animation-name: golden;
-                animation-duration: 10s;
-                animation-iteration-count: infinite;
             }
 
             p {
                 margin: 10px 0;
                 font-size: 20px;
                 color: #fff;
-                animation-name: golden;
-                animation-duration: 10s;
-                animation-iteration-count: infinite;
             }
 
             #bootstrap-icon {
@@ -387,73 +374,35 @@ section {
                 height: 50px;
                 width: 50px;
                 margin: 0 auto;
-                animation-name: golden;
-                animation-duration: 10s;
-                animation-iteration-count: infinite;
             }
         }
 
         #skill-2 {
             animation-delay: 1.25s;
-
-            p,
-            .fab {
-                animation-delay: 1.25s;
-            }
         }
 
         #skill-3 {
             animation-delay: 2.5s;
-
-            p,
-            .fab {
-                animation-delay: 2.5s;
-            }
         }
 
         #skill-4 {
             animation-delay: 3.75s;
-
-            p,
-            .fas {
-                animation-delay: 3.75s;
-            }
         }
 
         #skill-5 {
             animation-delay: 5s;
-
-            p,
-            #bootstrap-icon {
-                animation-delay: 5s;
-            }
         }
 
         #skill-6 {
             animation-delay: 6.25s;
-
-            p,
-            .fab {
-                animation-delay: 6.25s;
-            }
         }
 
         #skill-7 {
             animation-delay: 7.5s;
-
-            p,
-            .fab {
-                animation-delay: 7.5s;
-            }
         }
 
         #skill-8 {
             animation-delay: 8.75s;
-
-            p,
-            .fab {
-                animation-delay: 8.75s;
-            }
         }
     }
 }
