@@ -17,7 +17,7 @@ $(window).scroll(function(){
     //  mobile
     
     $('#mobileMoon').css({'top': 25 + scrollPosition/10 + '%'});
-    $('#heroMobile').css('background-position', '0px ' + scrollPosition +'px');
+    /*$('#heroMobile').css('background-position', '0px ' + scrollPosition +'px');*/
     
     
     //  navigation
