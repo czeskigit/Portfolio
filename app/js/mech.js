@@ -153,12 +153,12 @@ $.getJSON({
 $('#Game-Start').click(function () {
 
     if (gameActive) {
-        myGameArea.stop();
-        myGameArea.clear();
-        $('#Game-Start').text('Zagraj');
+        if (player.y >= 100) {
+            player.jump();
+        }
     } else {
         startGame();
-        $('#Game-Start').text('Stop');
+        $('#Game-Start').text('Skok');
         score = 0;
     }
 });
@@ -377,12 +377,3 @@ $(window).on('keydown', function (e) {
     }
 });
 
-
-
-$('canvas').on('tap', function (e) {
-    if (gameActive) {
-        if (player.y >= 100) {
-            player.jump();
-        }
-    }
-});
