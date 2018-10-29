@@ -379,7 +379,7 @@ $(window).on('keydown', function (e) {
 
 
 if (gameActive) {
-    $(window).on('tap', function (e) {
+    $('canvas').on('tap', function (e) {
         if (player.y >= 100) {
             player.jump();
         }
