@@ -345,17 +345,17 @@ function runningGame() {
     obstacleTwo.update();
     obstacleThree.update();
     obstacleFour.update();
-    
+
     //score update
     scoreText.text = 'wynik: ' + score;
     scoreText.update();
-    
+
     //hit checker
     player.hits(obstacleOne);
     player.hits(obstacleTwo);
     player.hits(obstacleThree);
     player.hits(obstacleFour);
-    
+
     //player movement plus leveling
     if (player.y < 100) {
         player.positionChange();
@@ -378,10 +378,11 @@ $(window).on('keydown', function (e) {
 });
 
 
-if (gameActive) {
-    $('canvas').on('tap', function (e) {
+
+$('canvas').on('tap', function (e) {
+    if (gameActive) {
         if (player.y >= 100) {
             player.jump();
         }
-    });
-}
+    }
+});
