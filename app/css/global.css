@@ -3,12 +3,6 @@
     font-family: 'Poiret One';
 }
 
-.body {
-    background-color: black;
-    position: relative;
-    z-index: -1;
-}
-
 /*  Animacje  */
 @keyframes skill-orbit {
     0% {
@@ -149,7 +143,6 @@
 /*  Triangles  */
 .triangle-container {
     position: relative;
-    z-index: -1;
 }
 
 .triangle-container #triangle-1 {
@@ -171,6 +164,13 @@
     position: absolute;
     top: -400px;
     right: 0;
+}
+
+/* Dividers */
+.divider {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #0080FF;
 }
 
 /*  Navbar  */
@@ -288,11 +288,69 @@
 }
 
 /*  Sections  */
+#sections-container {
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+}
+
+#hobby-description-container {
+    margin-top: 50px;
+}
+
+#hobby-description-container .col-sm-12,
+  #hobby-description-container .col-md-6 {
+    display: flex;
+    align-items: center;
+}
+
+#hobby-description-container .hobby-inner {
+    display: inline-block;
+}
+
+#hobby-description-container #Nasa-photo {
+    width: 100%;
+}
+
+#hobby-description-container canvas {
+    border: 1px solid #0080FF;
+    background-color: #000;
+}
+
+#hobby-description-container #Game-Start {
+    width: 240px;
+    background-color: #0080FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    box-shadow: 0 4px #333;
+    transition: 0.4s;
+}
+
+#hobby-description-container #Game-Start:hover {
+    cursor: pointer;
+}
+
+#hobby-description-container #Game-Start:active {
+    border: none;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.about-inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 section {
     padding: 50px;
     color: #fff;
     text-align: center;
     position: relative;
+    z-index: 2;
 }
 
 section #photo {
@@ -339,6 +397,7 @@ section .hobby:hover {
     width: 200px;
     background-color: #0080FF;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 section .hobby:hover h5 {

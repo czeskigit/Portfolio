@@ -50,6 +50,10 @@
     #contact-section #contact-container a {
         margin: 20px;
     }
+
+    #hobby-description-container {
+        margin-top: 0;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -60,22 +64,20 @@
 
     #heroMobile {
         display: block;
-        height: 600px;
+        height: 100vh;
         background-image: url("../resources/nightsky.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
         position: relative;
-        overflow: hidden;
     }
 
     #heroMobile #mobileMoon {
         border-radius: 50%;
-        width: 20%;
+        width: 40%;
         position: absolute;
-        top: 25%;
+        top: 40%;
         left: 60%;
-        z-index: 1;
     }
 
     #heroMobile #rockMan {
